@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/71258d5dfb.js" crossorigin="anonymous"></script>
+    <title>Document</title>
+    <link rel="stylesheet" href="first.css">
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+            <p>Portfo<span>lio</span></p>
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+                <div class="header1">
+                    
+                    <div class="header-text">
+                        <p>Hi, I am </p>
+                        <h1>Mirza Opu</h1>
+                        <p>I am a Web Developer, App Developer</p>
+                        <button>Hire Me</button>
+                    </div>
+                    <div class="imgs">
+                        <img src="imgs/mirza3-removebg-preview.jpg">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- About -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="imgs/in front of RTH.jpg" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Here, I focus on a range of items and features that we use in life without giving them a second thought. such as Coca Cola. Dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>UI/UX</span><br>Designing Web/App interfaces</li>
+                            <li><span>Web Developmet</span><br>Web App Development</li>
+                            <li><span>App Developmet</span><br>Building Android/iOs apps</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2021 - Current</span><br>UI/UX design training at ET institute</li>
+                            <li><span>2021 - 2021</span><br>Team lead at StarApp LLC</li>
+                            <li><span>2017 - 2019</span><br>UI/UX design executive at ekart e-commerce.</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2021</span><br>UI/UX design training at ET institute</li>
+                            <li><span>2021</span><br>BSc from JU</li>
+                            <li><span>2017</span><br>HSC from Muladi, Barisal.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!---------skills----->
+    <div id="skills">
+        <div class="container">
+        <h1 class="sub-title">Programming Skills</h1>
+        <div class="skill">
+            <div class="sk1">
+                    <h2>HTML</h2>
+                <div class="progress-bar">
+                    <div class="html"><span>86%</span></div>
+                </div>
+                <h2>CSS</h2>
+                <div class="progress-bar">
+                    <div class="css"><span>80%</span></div>
+                </div>
+                <h2>Javascript</h2>
+                <div class="progress-bar">
+                    <div class="javascript"><span>50%</span></div>
+                </div>
+            </div>
+            <div class="sk2">
+                <h2>MySql</h2>
+                <div class="progress-bar">
+                    <div class="mysql"><span>70%</span></div>
+                </div>
+                <h2>Java</h2>
+                <div class="progress-bar">
+                    <div class="java"><span>35%</span></div>
+                </div>
+                <h2>PHP</h2>
+                <div class="progress-bar">
+                    <div class="php"><span>85%</span></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <!---------services-------->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fas fa-file-code" style="color: white;"></i>
+                    <h2>Web Development</h2>
+                    <p>We, developers create and maintain websites. We are also responsible for the site's technical aspects, such as its performance and capacity, which are measures of a website's speed and how much traffic the site can handle.</p>
+                    <a href="#">learn more</a>
+                </div>
+                <div>
+                    <i class="fas fa-file-code"></i>
+                    <h2>Web Development</h2>
+                    <p>We, developers create and maintain websites. We are also responsible for the site's technical aspects, such as its performance and capacity, which are measures of a website's speed and how much traffic the site can handle.</p>
+                    <a href="#">learn more</a>
+                </div>
+                <div>
+                    <i class="fas fa-file-code"></i>
+                    <h2>Web Development</h2>
+                    <p>We, developers create and maintain websites. We are also responsible for the site's technical aspects, such as its performance and capacity, which are measures of a website's speed and how much traffic the site can handle.</p>
+                    <a href="#">learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!----------Portfolio------->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Works</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="imgs/01.webp">
+                    <div class="layer">
+                        <h3>Social Media App</h3>
+                        <p>The app connects you to the talented people around the world. Download it from google play</p>
+                        <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="imgs/02.webp">
+                    <div class="layer">
+                        <h3>Music App</h3>
+                        <p>The app connects you to the talented people around the world. Download it from google play</p>
+                        <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="imgs/03.webp">
+                    <div class="layer">
+                        <h3>Online shopping App</h3>
+                        <p>The app connects you to the talented people around the world. Download it from google play</p>
+                        <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See more</a>
+        </div>
+    </div>
+    <!--------contact----->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fas fa-envelope"></i> contact@xmple.com</p>
+                    <p><i class="fas fa-phone-square-alt"></i> 01873248</p>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                        <a href="#"><i class="fab fa-whatsapp"></i></a>
+                    </div>
+                    <a href="#" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form>
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="Email" name="email" placeholder="Your E-mail" required>
+                        <textarea name="Message" cols="30" rows="10" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <p>@Alright Reserved By Mirza</p>
+    </footer>
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+    
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+    <script>
+        var side_menu = document.getElementById("sidemenu");
+
+        function openmenu(){
+            side_menu.style.right = "0";
+        }
+        function closemenu(){
+            side_menu.style.right = "-200px";
+        }
+    </script>
+</body>
+</html>
